@@ -1,38 +1,85 @@
 .App {
-  text-align: center;
+    background-color: #72A1BF;
+    padding: 5px;
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body__wrap {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body__header {
+    height: 20vh;
+    background-color: #074770;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.body__body {
+    background-color: #F2FAFF;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.body__formElements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body__formlabel {
+    color: #A5C0D1;
+}
+
+.body__formBtn {
+    color: #074770;
+    width: 125px;
+    background-color: #72A1BF;
+    border-radius: 50%;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.body__showBtn {
+    align-items: baseline;
+    color: #FFFFFF;
+    width: 90%;
+    background-color: #074770;
+    border-radius: 50%;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.header__btn {
+    text-decoration-style: none;
+}
+
+.body__list {
+    height: 30vh;
+}
+
+.body__coordinates {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map__div {
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
